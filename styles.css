@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('alexandria.jpg'); /* Substitua 'background.jpg' pela sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color:red; /* Cor do texto */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;overscroll-behavior-block: ;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; /* Texto em negrito */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente para o rodapé */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  article {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo semi-transparente para o artigo */
+    color: black; /* Cor do texto do artigo */
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
